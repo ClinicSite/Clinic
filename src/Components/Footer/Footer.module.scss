@@ -1,0 +1,30 @@
+@import '../../Styles/Global.scss';
+
+.footer {
+    background-color: rgb(3, 3, 74);
+    margin-bottom: 0;
+    color: antiquewhite;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 560px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.lokasyon {
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: secondary;
+    height: 380px;
+    box-sizing: border-box;
+    
+}
+
+.tecrube {
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-style: italic;
+}

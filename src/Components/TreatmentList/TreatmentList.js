@@ -1,0 +1,1 @@
+import './TreatmentList.module.scss';

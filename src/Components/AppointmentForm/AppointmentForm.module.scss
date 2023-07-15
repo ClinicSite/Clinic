@@ -1,0 +1,31 @@
+@import '../../Styles/Global.scss';
+
+.appointmentLabel {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 15px;
+  
+}
+.appointmentBox {
+    background-color: rgb(250, 250, 250);
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    box-shadow: 0px 0px 4px gray;
+    width: 700px;
+    margin: auto;
+    height: 320px;
+}
+.appointmentBox h1 {
+    font-weight: 400;
+    font-size: 60px;
+    align-self: center;
+}
+.appointmentBox img {
+    height: 250px;
+    margin-right: 30px;
+}
+
+
+

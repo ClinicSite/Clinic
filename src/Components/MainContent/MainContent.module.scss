@@ -1,0 +1,31 @@
+@import '../../Styles/Global.scss';
+
+.mainContent {
+    background-color: rgb(225, 250, 250);
+    height: 450px;
+}
+.mainText {
+    font-weight: 700;
+    color: rgb(60, 60, 200);
+    font-family:serif;    
+}
+.mainText:hover {
+    color: darkblue;
+    transition: 1s;
+}
+.mainText2 {
+    color: rgb(94, 94, 204);
+    font-family:serif;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.mainText2:hover {
+       font-size: 25px; 
+       transition: 1s;
+}
+.mainBox {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
