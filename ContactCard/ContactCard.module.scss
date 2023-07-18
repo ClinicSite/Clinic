@@ -1,0 +1,17 @@
+@import '../../Styles/Global.scss';
+
+.contactContainer {
+    background-color: white;
+    color: gray;
+    height: 630px;
+}
+.contactContainer img {
+    height: 300px;
+}
+.btnContact {
+    background-color: rgb(255, 185, 177);
+    width: 300px;
+    height: 100px;
+    color: gray;
+    border-radius: 20px;
+}
