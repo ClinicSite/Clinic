@@ -10,8 +10,7 @@ function Helper() {
     return (
         <div className={`container elementor-column-gap-default ${styles.helperMain}`}>
             <div className='row w-100'>
-
-                <div className={`elementor-column col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor}`}>
+             <button className={`elementor-column col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor}`}>
                     <div className={`elementor-widget-wrap elementor-element-populated `}>
                         <div className={`elementor-widget container-fluid`}>
                             <div className={`elementor-row d-flex`}>
@@ -30,8 +29,8 @@ function Helper() {
 
                         </div>
                     </div>  
-                </div>
-                <div className={`elementor-column col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor}`}>
+                </button>
+                <button className={`elementor-column col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor}`}>
                     <div className={`elementor-widget-wrap elementor-element-populated `}>
                         <div className={`elementor-widget container-fluid`}>
                             <div className={`elementor-row d-flex`}>
@@ -52,8 +51,8 @@ function Helper() {
 
                         </div>
                     </div>
-                </div>
-                <div className={`elementor-column col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor}`}>
+                </button>
+                <button className={`elementor-column col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor}`}>
                     <div className={`elementor-widget-wrap elementor-element-populated `}>
                         <div className={`elementor-widget container-fluid`}>
                             <div className={`elementor-row d-flex`}>
@@ -72,8 +71,8 @@ function Helper() {
 
                         </div>
                     </div>
-                </div>
-                <div className={`elementor-column col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor2}`}>
+                </button>
+                <button className={`elementor-column col-12 col-md-3 elementor-top-column elementor-element ${styles.elementor2}`}>
                     <div className={`container`}>
                         <div className='row d-flex'>
                             <div>
@@ -92,7 +91,7 @@ function Helper() {
                         </div>
 
                     </div>
-                </div>
+                </button>
 
             </div>
         </div>

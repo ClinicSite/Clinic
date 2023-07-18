@@ -48,8 +48,8 @@ const changeBackground=()=>{
         },
         {
             name: "ÖNCE-SONRA",
-            id: 3,
-            path: "/contact"
+            id: 4,
+            path: "/beforeafter"
         },
             
       
@@ -61,29 +61,44 @@ const changeBackground=()=>{
               <NavDropdown.Item href="#treatments/4">Pedodonti</NavDropdown.Item> */}
    const treatments = [
     {
-        name: "İmplant Tedavisi",
+        name: "Dental İmplant",
         id: 1,
-        path: "/implat-tedavisi"
+        path: "/dental-implant"
     },
     {
-        name: "Estetik Diş Hekimliği",
+        name: "Zirkonyum-Porselen",
         id: 2,
-        path: "/estetik-dis-hekimligi"
+        path: "/zirkonyum-porselen"
     },
     {
-        name: "Ağız ve Çene Cerrahisi",
+        name: "Kanal Tedavisi",
         id: 3,
-        path: "/agiz-cene-cerrahisi"
+        path: "/kanal-tedavisi"
     },
     {
-        name: "Ortodonti",
+        name: "Estetik Dolgular",
         id: 4,
-        path: "/ortodonti"
+        path: "/estetik-dolgular"
     },
     {
-        name: "Pedodonti",
+        name: "Çene Cerrahisi",
         id: 5,
-        path: "/pedodonti"
+        path: "/cene-cerrahisi"
+    },
+    {
+        name: "Porselen Laminalar",
+        id: 6,
+        path: "/porselen-laminalar"
+    },
+    {
+        name: "Bruksizm-Şeffaf Plak",
+        id: 7,
+        path: "/seffaf-plak"
+    },
+    {
+        name: "Greft&Kemik Tozu",
+        id: 8,
+        path: "/greft-kemiktozu"
     },
     
    ];
@@ -121,6 +136,9 @@ const changeBackground=()=>{
                                 
 
                         <button class="btn btn-outline-primary w-45" type="button">RANDEVU AL <FaArrowRight /></button>
+
+                        
+                        <button class="btn btn-outline-primary w-45" type="button">RÖNTGEN GÖNDER <FaArrowRight /></button>
                        </Nav>
                     </Navbar.Collapse>
                 </Container>

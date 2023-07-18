@@ -40,16 +40,18 @@ function Header() {
                         </div>
                         <div className='mt-1'>
                             <h6>
-                                <span className={styles.phoneStart}>0543</span>528 83 64
+                                <span className={styles.phoneStart}>0543 528 83 64</span>
                             </h6>
                         </div>
                     </button>
                 </div>
                 <div className={`col-4 ${styles.headerIcon}`}>
-                    <BsFacebook />
-                    <RiInstagramFill />
-                    <a className={styles.headerTrzm}>
-                        <RiHandSanitizerFill />
+                    <a href="https://www.facebook.com/Microsoft/">
+                    <BsFacebook /> </a>
+                    <a href="https://www.instagram.com/microsoft/?ysclid=lk8m8qkfvp328070649">
+                    <RiInstagramFill /></a>
+                    <a href="https://shgmturizmdb.saglik.gov.tr/" className={styles.headerTrzm}>
+                         <RiHandSanitizerFill />
                         <h6>SAĞLIK TURİZMİ</h6>
                     </a>
 
