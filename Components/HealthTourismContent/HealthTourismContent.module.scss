@@ -1,0 +1,48 @@
+@import  '../../Styles/Global.scss';
+
+.tourismImg img{
+    height: 330px;
+    
+}
+.tourismContainer{
+    height: 1450px;
+}
+.tourismLabel {
+    font-style: italic;
+    font-family:"Playfair Display Italic Font";
+    font-weight: 600;
+    font-size: 35px;
+    color:rgb(16, 208, 144);
+}
+.tourismContainer {
+    background-color: rgba(255, 255, 255,.9);
+}
+.tourismText {
+    text-align: center;
+    
+}
+.tourismTextLabel {
+    color: rgb(18, 226, 156);
+    text-align: center;
+    
+}
+.btnTourismRoentgen {
+   width: 200px;
+   text-align: center;
+   border-radius: 12px;
+}
+.main1 {
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width:576px) {
+    .tourismContainer img {
+        width: 320px;
+    }
+    .vitoPhoto {
+        display: none;
+    }
+    .imgRnt {
+        margin-top: 20px;
+    }
+}

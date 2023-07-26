@@ -1,0 +1,82 @@
+@import '../../Styles/Global.scss';
+
+.footer {
+    background-color: rgba(0, 0, 80,.9);
+    margin-bottom: 0;
+    color: antiquewhite;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-height: 560px;
+    text-align: center;
+    justify-content: center;
+    font-family: "Gilroy", Sans-serif;
+    padding: 0;
+
+}
+
+.lokasyon {
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: rgba(247, 243, 243,0.2);
+    height: 350px;
+    justify-content: end;
+    padding-left: 30px;
+    
+}
+.lokasyon2 {
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: rgba(247, 243, 243,0.2);
+    height: 380px;
+    justify-content: end;
+    padding-left: 30px;
+}
+
+.tecrube {
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+    font-style: italic;
+}
+.lokasyon img {
+    border-radius: 12px;
+    margin-right: 20px;
+}
+@media screen and (max-width:576px) {
+
+    .formGz {
+        display: none;
+    }
+    h4{
+        margin: 0 !important;
+    }
+    .lokasyon img {
+        width: 280px;
+        margin: 0;
+        
+    }
+    .lokasyon{
+        height:fit-content;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+    .lokasyon2{
+        display: none;
+    }      
+    .bizeUlasin {
+        padding-left: 30px;
+    }  
+    .btnBizeUlasin {
+       margin-left: 30px;
+    }
+}
+.accFooter {
+    width: 250px;
+    border: none;
+    border-radius: 10px
+}
+.btnLok {
+    width: 250px;
+}

@@ -1,0 +1,24 @@
+@import './Global.scss';
+
+.treatmentContentContainer {
+    height: 1300px;
+}
+.treatmentContentContainer img {
+    height: 400px;
+    width: 400px;
+}
+.treatmentLabel {
+    font-weight: 500;
+    color: rgb(0, 137, 91);
+}
+.treatmentMainLabel {
+    font-style: italic;
+    font-family:"Playfair Display Italic Font";
+    font-weight: 600;
+    font-size: 25px;
+    color:rgb(16, 208, 144);
+}
+.treatmentMainP {
+    font-size: 25px;
+    align-content: center;
+}
