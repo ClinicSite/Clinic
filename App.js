@@ -11,13 +11,16 @@ import SendRoentgen from "./pages/SendRoentgen/SendRoentgen"
 import BeforeAfter from "./pages/BeforeAfter/BeforeAfter"
 import Navbar from './Components/Nav/Naav'
 import HealthTourismContent from "./Components/HealthTourismContent/HealthTourismContent"
+import { SiWhatsapp } from 'react-icons/si';
+import style from './App.scss';
 import Implant from "./pages/Treatments/Implant/implant"
 import ZirconiumPorcelain from "./pages/Treatments/ZirconiumPorcelain/zirconiumPorcelain"
 import RootCanal from "./pages/Treatments/RootCanal/rootCanal"
-import { SiWhatsapp } from 'react-icons/si';
-import './App.scss';
 import AestheticBonding from "./pages/Treatments/AestheticBonding/aestheticBonding"
 import ChinSurgery from "./pages/Treatments/ChinSurgery/chinSurgery"
+import Bruxism from "./pages/Treatments/Bruxism/bruxism"
+import PorcelainLaminates from "./pages/Treatments/PorcelainLaminates/porcelainLaminates"
+import BoneGreft from "./pages/Treatments/BoneGreft/boneGreft"
 
 function App() {
   return (
@@ -43,9 +46,9 @@ function App() {
           <Route path="/kanal-tedavisi" element={<RootCanal/>} />
           <Route path="/estetik-dolgular" element={<AestheticBonding />} />
           <Route path="/cene-cerrahisi" element={<ChinSurgery />} />
-          <Route path="/porselen-laminalar" element={<Implant />} />
-          <Route path="/seffaf-plak" element={<Implant />} />
-          <Route path="/greft-kemiktozu" element={<Implant />} />
+          <Route path="/porselen-laminalar" element={<PorcelainLaminates/>} />
+          <Route path="/seffaf-plak" element={<Bruxism/>} />
+          <Route path="/greft-kemiktozu" element={<BoneGreft/>} />
         
            </Routes>
            <a

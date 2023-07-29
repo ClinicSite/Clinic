@@ -6,9 +6,12 @@
 body {
     font-family: "Gilroy", Sans-serif;
     background-color: #e6e9f3;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    
+}
+@media screen and (max-width:576px) {
+    body {
+        background-color: rgba(255, 255, 255,.9);
+    }
 }
 
 @media (max-width: $media-md) {
