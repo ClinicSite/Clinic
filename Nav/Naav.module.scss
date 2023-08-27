@@ -1,10 +1,12 @@
 @import '../../Styles/Global.scss';
 
 .navBar{
-    background-color:rgb(0, 0, 80);
-    margin-top: 42px;
-
+    background-color:#000050;
+    margin-top: 40px;
+    
 }
+
+
 .activeNavBar {
 
     background-color: black;
@@ -15,11 +17,13 @@
     justify-content:center;
     align-items: center;
     gap: 30px;
+    //max-width: 100%;
 }
 
 
 .navLink{
     color: white;
+    text-decoration: none;
 }
 
 .menuLink{
@@ -31,4 +35,31 @@
 .basicNavDropdown>a {
 
     color: white !important;
+}
+.btnNav {
+    background-color: rgb(95, 252, 200);
+    color: #000050;
+    margin-left: 30px;
+    padding-right: 20px;
+}
+.btnNav2 {
+    background-color: rgb(95, 252, 200);
+    color: #000050;
+    margin-left: 30px;
+    padding-right: 20px;
+
+}
+
+@media screen and (max-width:576px){
+    .btnNav{
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+       // margin-right: 50px;
+    }
+    .btnNav2{
+        
+        display: none;
+       
+    }
 }
