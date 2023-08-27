@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Treatments.module.scss';
+//import styles from './Treatments.module.scss';
 
 const Treatment=() => {
   return (
